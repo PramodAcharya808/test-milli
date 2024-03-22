@@ -1,0 +1,209 @@
+/* Media Query 1170px */
+
+@media (max-width:1170px) {
+  .section-subtitle {
+    width: 60%;
+  }
+
+  .header .navbar {
+    background-size: cover;
+    padding: 2rem;
+  }
+
+  .header .navbar-nav {
+    margin-top: 2rem;
+  }
+
+  .header .navbar-nav .nav-link {
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .header .header-right span {
+    padding: 0.2rem 0.5rem;
+  }
+
+  .banner_section {
+    min-height: 70vh;
+  }
+
+  .banner_section .carousel-item {
+    left: 1%;
+    min-height: 70vh;
+  }
+
+  .banner_section .carousel-caption {
+    top: 30%;
+    left: 0;
+  }
+
+
+  .feature_section .feature-box {
+    padding: 1rem;
+  }
+
+
+  .feature_section .feature-box h3 {
+    font-size: 2.5rem;
+  }
+
+
+  .landing_about_section .content {
+    top: 3rem;
+  }
+
+  .landing_about_section {
+    background-size: cover;
+    min-height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .homepage_products_section .section-subtitle{
+    min-width: 70%;
+  }
+
+
+  .homepage_products_section .product-card h3{
+    font-size: 2rem;
+  }
+  .homepage_products_section .product-card span{
+    font-size: 1.5rem;
+  }
+
+  .testimonials .section-subtitle{
+    min-width: 70%;
+  }
+}
+
+
+/* Media Query 980px */
+
+@media (max-width:980px) {
+  .section-subtitle {
+    max-width: 30%;
+  }
+
+
+  .header .navbar {
+    background-size: cover;
+    padding: 2rem;
+  }
+
+  .header .navbar-nav {
+    margin-top: 2rem;
+  }
+
+  .header .navbar-nav .nav-link {
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .header .header-right span {
+    padding: 0.2rem 0.5rem;
+  }
+
+
+  .banner_section {
+    min-height: 50vh;
+  }
+
+  .banner_section .carousel-item {
+    min-height: 50vh;
+  }
+
+  .banner_section .carousel-caption {
+    top: 25%;
+    left: 2%;
+  }
+
+  .banner_section .carousel-caption h1 {
+    font-size: 4.5rem;
+  }
+
+  .banner_section .carousel-caption h3 {
+    background-color: var(--primary-text);
+    font-size: 2rem;
+  }
+
+  .banner_section .carousel-caption p {
+    margin: 1.5rem 0 0 0;
+    max-width: 75%;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+  }
+
+  .feature_section .feature-box {
+    padding: 1rem;
+  }
+
+
+  .feature_section .feature-box h3 {
+    font-size: 2rem;
+  }
+
+  .landing_about_section .content h2 {
+    font-size: 3.5rem;
+  }
+
+  .landing_about_section .content h5 {
+    font-size: 1.8rem;
+  }
+
+  .landing_about_section .content p {
+    font-size: 1.2rem;
+  }
+
+  .landing_about_section .content {
+    top: -5rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .landing_about_section {
+    background-image: url('../Assets/about/about-banner-mobile.jpg');
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .homepage_products_section .section-subtitle{
+    min-width: 80%;
+  }
+  
+  .homepage_products_section .product-card{
+    margin: 1rem 0;
+    transition: all 0.3s;
+  }
+  .homepage_products_section .product-card h3{
+    font-size: 1.7rem;
+  }
+  .homepage_products_section .product-card span{
+    font-size: 1.1rem;
+  }
+  
+  .homepage_products_section .cards-holder{
+    justify-content: center;
+  }
+
+  .homepage_products_section .product-card .product-detail{
+    padding: 2rem 1rem;
+  }
+
+  .homepage_products_section .product-card .product-detail .main-btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+
+  .testimonials .section-subtitle{
+    min-width: 80%;
+  }
+
+  .testimonials .carousel-inner .profile-box{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    margin: auto;
+    max-width:25rem ;
+    padding: 2rem;
+  }
+}
